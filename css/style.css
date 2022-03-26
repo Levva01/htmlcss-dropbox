@@ -43,21 +43,87 @@ html, body{
 
 .header-top{
     max-height: 100px;
+    padding: 2% 1.5%;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 .header-top img{
-    margin: 2% 1%;
     float: left;
 }
 
-nav{
+.header-nav{
     height: 100%;
+    padding-top: 0.3%;
 }
 
+.header-top a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-top button{
+    display: inline-block;
+}
+
+.header-top ul{
+    display: inline-block;
+}
+
+.header-top li{
+    display: inline-block;
+}
+
+/* Nav di sinistra */
 .nav-left{
+    margin-left: 20px;
+    width: 45%;
     float: left;
 }
 
-.right-nav{
+.nav-left li{
+    margin-left: 20px;
+}
+
+/* Nav di destra */
+
+.nav-right{
     float: right;
+}
+
+.nav-right li{
+    margin-right: 20px;
+}
+
+
+
+/*------------
+    BUTTON
+------------*/
+
+button{
+    padding: 6px 12px;
+    border: none;
+}
+
+
+/*---------------------------------- 
+    COLORS (TEXT AND BACKGROUND)
+----------------------------------*/
+
+.text-white{
+    color: white;
+}
+
+.text-blue{
+    background-color: rgb(0, 97, 255) ;
+}
+
+.background-blue{
+    background-color: rgb(0, 97, 255);
+}
+
+.background-white{
+    background-color: white;
 }
