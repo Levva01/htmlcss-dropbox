@@ -199,11 +199,11 @@ ul{
 }
 
 .content h4{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .container-radio span{
-    margin-left:  10px;
+    margin-right: 10px;
     line-height: 50%;
     vertical-align: middle;
 }
@@ -216,6 +216,34 @@ ul{
     margin-right: 5px;
     line-height: 50%;
     vertical-align: middle;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 20%;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+.column-bottom{
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+
+.column-bottom .content-left{
+    width: 70%;
+    float: left;
+}
+
+.column-bottom .content-right{
+    float: right;
+    width: 30%;
+}
+
+.column-bottom button{
+    margin-top: 0;
+    width: 100%;
+    padding: 10px 0;
 }
 
 /*------------
