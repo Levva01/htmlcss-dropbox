@@ -42,10 +42,8 @@ html, body{
 /* Header top */
 
 .header-top{
-    max-height: 100px;
+    height: 100px;
     padding: 2% 1.5%;
-    position: fixed;
-    z-index: 10;
     width: 100%;
 }
 
@@ -96,7 +94,45 @@ html, body{
     margin-right: 20px;
 }
 
+.hero{
+    padding: 40px 10%;
+    width: 100%;
+}
 
+.hero h1{
+    font-size: 60px;
+}
+
+.col-hero-left{
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+}
+
+.col-hero-left button{
+    margin-top: 30px;
+}
+
+.col-hero-right{
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+
+.col-hero-right img{
+    margin-bottom: -90px;
+    width: 100%;
+    height: auto;
+}
+
+.col-hero-left span{
+    display: block;
+    margin: 10px 0;
+}
+
+.col-hero-left .entity{
+    font-size: 50px;
+}
 
 /*------------
     BUTTON
@@ -106,7 +142,6 @@ button{
     padding: 6px 12px;
     border: none;
 }
-
 
 /*---------------------------------- 
     COLORS (TEXT AND BACKGROUND)
@@ -126,4 +161,8 @@ button{
 
 .background-white{
     background-color: white;
+}
+
+.background-lightblue{
+    background-color: #b4d0e7;
 }
