@@ -275,7 +275,42 @@ ul{
     margin-bottom: 20px;
 }
 
+.section-fourth{
+    margin: 0 15%;
+    margin-bottom: 100px;
+}
 
+.section-fourth .row{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.section-fourth .col-left{
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+.section-fourth .col-middle{
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+.section-fourth .col-right{
+    width: 30%;
+    float: left;
+}
+
+.section-fourth img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.section-fourth h4{
+    margin-bottom: 20px;
+}
 
 
 /*------------
