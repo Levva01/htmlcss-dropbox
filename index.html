@@ -101,9 +101,9 @@
 
                 <!-- contenitore radio button -->
                 <div class="container-radio">
-                    <span><input type="radio" name="fatturazione" id="" value="Fatturazione mensile">Fatturazione mensile</span>
+                    <span><input type="radio" name="fatturazione" class="radio-btn" value="Fatturazione mensile">Fatturazione mensile</span>
 
-                    <span><input type="radio" name="fatturazione" id="" value="Fatturazione annuale">Fatturazione annuale</span>
+                    <span><input type="radio" name="fatturazione" class="radio-btn" value="Fatturazione annuale">Fatturazione annuale</span>
                 </div>
                 <!-- /contenitore radio button -->
 
@@ -112,111 +112,123 @@
 
                     <!-- colonna di sinistra -->
                     <div class="col-section-left">
-                        <i class="fa-solid fa-user"></i>
-                        <span>Singolo</span>
-
+                        <div class="intestazione">
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
+                        </div>
                         <hr>
 
-                        <h3>Professional</h3>
-                        <span>19,99 €</span>
-                        <br>
-                        <span>/mese</span>
+                        <div class="content">
+                            <h3>Professional</h3>
+                            <span>19,99 €</span>
+                            <span class="text-grey">/mese</span>
 
-                        <ul>
-                            <li><i class="fa-solid fa-user"></i>1 utente</li>
-                            <li><i class="fa-solid fa-folder"></i>3 TB di spazio di archiviazione sicuro</li>
-                            <li><i class="fa-solid fa-pen"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
+                            <ul>
+                                <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
 
-                        <button class="background-blue text-white"> Prova gratis per 30 giorni</button>
+                            <button class="background-blue text-white"> Prova gratis per 30 giorni</button>
+                            
+                            <span>oppure <a href="#">acquista ora</a></span>
+
+                            <div class="horizontal-line"></div>
+
+                            <h4>Punti salienti del piano</h4>
+
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Invia i file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+
+                        </div>
+
                         
-                        <span>oppure <a href="#">acquista ora</a></span>
-
-                        <div class="horizontal-line"></div>
-
-                        <h4>Punti salienti del piano</h4>
-
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>Invia i file fino a 100 GB con Dropbox Transfert</li>
-                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                            <li><i class="fa-solid fa-check"></i>Pulizia remota dell'account</li>
-                            <li><i class="fa-solid fa-check"></i>Filigrana documento</li>
-                            <li><i class="fa-solid fa-check"></i>Assistenza prioritaria via email e chat</li>
-                        </ul>
 
                     </div>
                     <!-- /colonna di sinistra -->
 
                     <!-- colonna di centro -->
                     <div class="col-section-middle">
-                        <i class="fa-solid fa-building"></i>
-                        <span>Team</span>
-
+                        <div class="intestazione">
+                            <span class=""><i class="fa-solid fa-building"></i> Team</span>
+                        </div>
                         <hr>
-
-                        <h3>Standard</h3>
-                        <span>19,99 €</span>
-                        <br>
-                        <span>/ utente / mese, a partire da 3 utenti</span>
-
-                        <ul>
-                            <li><i class="fa-solid fa-user"></i>1 utente</li>
-                            <li><i class="fa-solid fa-folder"></i>3 TB di spazio di archiviazione sicuro</li>
-                            <li><i class="fa-solid fa-pen"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
-
-                        <button class="background-blue text-white"> Prova gratis per 30 giorni</button>
                         
-                        <span>oppure <a href="#">acquista ora</a></span>
+                        <div class="content">
 
-                        <div class="horizontal-line"></div>
+                            <h3>Standard</h3>
+                            <span>19,99 €</span>
+                            <span class="text-grey">/ utente / mese, a partire da 3 utenti</span>
 
-                        <h4>Punti salienti del piano</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
 
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>Invia i file fino a 100 GB con Dropbox Transfert</li>
-                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                            <li><i class="fa-solid fa-check"></i>Pulizia remota dell'account</li>
-                            <li><i class="fa-solid fa-check"></i>Filigrana documento</li>
-                            <li><i class="fa-solid fa-check"></i>Assistenza prioritaria via email e chat</li>
-                        </ul>
+                            <button class="background-blue text-white"> Prova gratis per 30 giorni</button>
+                            
+                            <span>oppure <a href="#">acquista ora</a></span>
+
+                            <div class="horizontal-line"></div>
+
+                            <h4>Punti salienti del piano</h4>
+
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Invia i file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+
+                        </div>
 
                     </div>
                     <!-- /colonna di centro -->
 
                     <!-- colonna di destra -->
                     <div class="col-section-right">
-                        <i class="fa-solid fa-building"></i>
-                        <span>Team</span>
-
+                        <div class="intestazione">
+                            <span><i class="fa-solid fa-building"></i> Team</span>
+                            
+                        </div> 
                         <hr>
+                        <div class="content">
 
-                        <h3>Advanced</h3>
-                        <span>19,99 €</span>
-                        <br>
-                        <span>/ utente / mese, a partire da 3 utenti</span>
+                            <h3>Advanced</h3>
+                            <span>19,99 €</span>
+                            <span class="text-grey">/ utente / mese, a partire da 3 utenti</span>
 
-                        <ul>
-                            <li><i class="fa-solid fa-user"></i>1 utente</li>
-                            <li><i class="fa-solid fa-folder"></i>3 TB di spazio di archiviazione sicuro</li>
-                            <li><i class="fa-solid fa-pen"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                        </ul>
+                            <ul>
+                                <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                                <li><i class="fa-solid fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            </ul>
 
-                        <button class="background-blue text-white"> Prova gratis per 30 giorni</button>
-                        
-                        <span>oppure <a href="#">acquista ora</a></span>
+                            <button class="background-blue text-white">Prova gratis per 30 giorni</button>
+                            
+                            <span>oppure <a href="#">acquista ora</a></span>
 
-                        <div class="horizontal-line"></div>
+                            <div class="horizontal-line"></div>
 
-                        <h4>Punti salienti del piano</h4>
+                            <h4>Punti salienti del piano</h4>
 
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i>Invia i file fino a 100 GB con Dropbox Transfert</li>
-                            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                            <li><i class="fa-solid fa-check"></i>Pulizia remota dell'account</li>
-                            <li><i class="fa-solid fa-check"></i>Filigrana documento</li>
-                            <li><i class="fa-solid fa-check"></i>Assistenza prioritaria via email e chat</li>
-                        </ul>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Invia i file fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fa-solid fa-check"></i> Filigrana documento</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                <li><i class="fa-solid fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                            
+                        </div>    
                         
                     </div>
                     <!-- /colonna di destra -->

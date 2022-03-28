@@ -135,7 +135,7 @@ html, body{
 }
 
 .section-second{
-    margin: 140px 20%;
+    margin: 140px 15%;
 }
 
 .section-second h2{
@@ -147,25 +147,76 @@ html, body{
 }
 
 .col-section-left{
-    border: 1px solid black;
+    border: 1px solid grey;
     float: left;
     width: 26.7%;
+    min-height: 750px;
 }
 
 .col-section-middle{
     margin-left: 10%;
-    border: 1px solid black;
+    border: 1px solid grey;
     float: left;
     width: 26.7%;
+    min-height: 750px;
 }
 
 .col-section-right{
     margin-left: 10%;
-    border: 1px solid black;
+    border: 1px solid grey;
     float: left;
     width: 26.6%;
+    min-height: 750px;
 }
 
+.section-second .intestazione{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section-second .content{
+    margin: 25px 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.content li{
+    margin-top: 15px;
+    font-size: small;
+}
+
+.section-second button{
+    margin-top: 15px;
+}
+
+.content span{
+    margin-top: 15px;
+    display: block;
+    font-size: small;
+}
+
+.content h4{
+    margin-top: 15px;
+}
+
+.container-radio span{
+    margin-left:  10px;
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+.container-radio {
+    margin-right: 5px;
+}
+
+.radio-btn{
+    margin-right: 5px;
+    line-height: 50%;
+    vertical-align: middle;
+}
 
 /*------------
     BUTTON
@@ -182,6 +233,10 @@ button{
 
 .text-white{
     color: white;
+}
+
+.text-grey{
+    color: grey;
 }
 
 .text-blue{
