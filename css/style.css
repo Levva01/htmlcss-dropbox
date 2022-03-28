@@ -246,6 +246,38 @@ ul{
     padding: 10px 0;
 }
 
+.section-third{
+    margin: 0 15%;
+    margin-bottom: 100px;
+}
+
+.section-third img{
+    width: 100%;
+    height: auto;
+}
+
+.section-third .left-content{
+    float: left;
+    width: 50%;
+}
+
+.section-third .right-content{
+    float: right;
+    width: 45%;
+}
+
+.section-third h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section-third p{
+    margin-bottom: 20px;
+}
+
+
+
+
 /*------------
     BUTTON
 ------------*/
@@ -281,4 +313,8 @@ button{
 
 .background-lightblue{
     background-color: #b4d0e7;
+}
+
+.border-black{
+    border: 1px solid black;
 }
