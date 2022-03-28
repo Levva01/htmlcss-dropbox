@@ -312,6 +312,80 @@ ul{
     margin-bottom: 20px;
 }
 
+.section-fifth{
+    width: 100%;
+}
+
+.section-fifth h3{
+    margin-left: 15%;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.section-fifth a{
+    text-decoration: underline;
+    margin-left: 15%;
+    font-size: small;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.section-fifth .container-left{
+    width: calc(100% / 3);
+    float: left;
+}
+
+.section-fifth .team-design{
+    width: 253.1px;
+    height: 253.1px;
+    position: relative;
+
+}
+
+.col img{
+    position: absolute;
+    width: 55%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-fifth .col{
+    float: left;
+}
+
+.fake-height{
+    height: 506.1px;
+}
+
+#designit-img{
+    width: 150px;
+    height: auto;
+}
+
+.container-left .middle{
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: #f5f5f5;
+}
+
+.middle .horizontal-line{
+    height: 3px;
+    background-color: gray;
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.middle p{
+    margin-bottom: 30px;
+}
+
+
+
+
+
 
 /*------------
     BUTTON
@@ -335,7 +409,7 @@ button{
 }
 
 .text-blue{
-    background-color: rgb(0, 97, 255) ;
+    color: rgb(0, 97, 255) ;
 }
 
 .background-blue{
@@ -350,6 +424,47 @@ button{
     background-color: #b4d0e7;
 }
 
+.background-lightgray{
+    background-color: lightgray;
+}
+
 .border-black{
     border: 1px solid black;
 }
+
+.background-designit{
+    background-color: #a2d39b;
+}
+
+.background-asu{
+    background-color: #61082b;
+}
+
+.background-uf{
+    background-color: #0093ce;
+}
+
+.background-topps{
+    background-color: #ff1c1c;
+}
+
+.background-worldbicycle{
+    background-color: #d5001f;
+}
+
+.background-hearst{
+    background-color: #b4d0e7;
+}
+
+.background-lonelyplanet{
+    background-color: #0d2481;
+}
+
+.background-clearchannel{
+    background-color: #ffd830;
+}
+
+
+
+
+
