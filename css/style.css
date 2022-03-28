@@ -134,6 +134,39 @@ html, body{
     font-size: 50px;
 }
 
+.section-second{
+    margin: 140px 20%;
+}
+
+.section-second h2{
+    margin-bottom: 30px;
+}
+
+.container-section-columns{
+    margin-top: 30px;
+}
+
+.col-section-left{
+    border: 1px solid black;
+    float: left;
+    width: 26.7%;
+}
+
+.col-section-middle{
+    margin-left: 10%;
+    border: 1px solid black;
+    float: left;
+    width: 26.7%;
+}
+
+.col-section-right{
+    margin-left: 10%;
+    border: 1px solid black;
+    float: left;
+    width: 26.6%;
+}
+
+
 /*------------
     BUTTON
 ------------*/
