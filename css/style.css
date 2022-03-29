@@ -336,8 +336,8 @@ ul{
 }
 
 .section-fifth .team-design{
-    width: 253.1px;
-    height: 253.1px;
+    width: 16.48vw;
+    height: 16.48vw;
     position: relative;
 
 }
@@ -382,8 +382,24 @@ ul{
     margin-bottom: 30px;
 }
 
+.section-bottom{
+    margin-bottom: 100px;
+}
 
+.section-bottom h2{
+    margin: 100px 15%;
+    float: left;
+    vertical-align: middle;
+    color: #61082b;
+    font-size: 30px;
+}
 
+.section-bottom .button-container{
+    margin: 125px 15%;
+    float: right;
+    vertical-align: top;
+    line-height: 100%;
+}
 
 
 
