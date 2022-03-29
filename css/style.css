@@ -47,28 +47,34 @@ html, body{
     width: 100%;
 }
 
+/* logo */
 .header-top img{
     float: left;
 }
 
+/* nav all'interno dell'header */
 .header-nav{
     height: 100%;
     padding-top: 0.3%;
 }
 
+/* stile tag a header */
 .header-top a{
     text-decoration: none;
     color: black;
 }
 
+/* modifica display button header */
 .header-top button{
     display: inline-block;
 }
 
+/* modifica display ul header */
 .header-top ul{
     display: inline-block;
 }
 
+/* modifica display li header */
 .header-top li{
     display: inline-block;
 }
@@ -80,72 +86,85 @@ html, body{
     float: left;
 }
 
+/* li nav di sinistra */
 .nav-left li{
     margin-left: 20px;
 }
 
 /* Nav di destra */
-
 .nav-right{
     float: right;
 }
 
+/* li nav di destra */
 .nav-right li{
     margin-right: 20px;
 }
 
+/* classe hero */
 .hero{
     padding: 40px 10%;
     width: 100%;
 }
 
+/* titolo hero */
 .hero h1{
     font-size: 60px;
 }
 
+/* colonna sinistra hero */
 .col-hero-left{
     width: 40%;
     float: left;
     margin-top: 30px;
 }
 
+/* button colonna sinistra hero */
 .col-hero-left button{
     margin-top: 30px;
 }
 
+/* colonna destra hero */
 .col-hero-right{
     width: 50%;
     float: right;
     margin-top: 30px;
 }
 
+/* immagine colonna destra hero */
 .col-hero-right img{
     margin-bottom: -90px;
     width: 100%;
     height: auto;
 }
 
+/* span colonna sinistra hero */
 .col-hero-left span{
     display: block;
     margin: 10px 0;
 }
 
+/* entity colonna sinistra hero */
 .col-hero-left .entity{
     font-size: 50px;
 }
 
+/* seconda sezione main */
 .section-second{
     margin: 140px 15%;
 }
 
+/* titolo seconda sezione */
 .section-second h2{
     margin-bottom: 30px;
 }
 
+/* colonna sezione container */
 .container-section-columns{
     margin-top: 30px;
 }
 
+/* colonna sezione sinistra */
 .col-section-left{
     border: 1px solid grey;
     float: left;
@@ -153,6 +172,7 @@ html, body{
     min-height: 750px;
 }
 
+/* colonna sezione centro */
 .col-section-middle{
     margin-left: 10%;
     border: 1px solid grey;
@@ -161,6 +181,7 @@ html, body{
     min-height: 750px;
 }
 
+/* colonna sezione destra */
 .col-section-right{
     margin-left: 10%;
     border: 1px solid grey;
@@ -169,55 +190,66 @@ html, body{
     min-height: 750px;
 }
 
+/* intestazione seconda sezione */
 .section-second .intestazione{
     width: 100%;
     text-align: center;
     padding: 10px 0;
 }
 
+/* contenuto seconda sezione */
 .section-second .content{
     margin: 25px 20px;
 }
 
+/* stile ul */
 ul{
     list-style-type: none;
 }
 
+/* elementi lista content */
 .content li{
     margin-top: 15px;
     font-size: small;
 }
 
+/* button seconda sezione */
 .section-second button{
     margin-top: 15px;
 }
 
+/* span content */
 .content span{
     margin-top: 15px;
     display: block;
     font-size: small;
 }
 
+/* titolo h4 nel content */
 .content h4{
     margin-top: 25px;
 }
 
+/* container radio button span */
 .container-radio span{
     margin-right: 10px;
     line-height: 50%;
     vertical-align: middle;
 }
 
+/* container radio button */
 .container-radio {
     margin-right: 5px;
 }
 
+/* radio button */
 .radio-btn{
     margin-right: 5px;
     line-height: 50%;
     vertical-align: middle;
 }
 
+/* linea orizzontale */
 .horizontal-line{
     height: 1px;
     width: 20%;
@@ -225,103 +257,128 @@ ul{
     margin-top: 20px;
 }
 
+/* stile check */
+.check i{
+    color: rgb(0, 97, 255) ;
+}
+
+/* colonna sotto */
 .column-bottom{
     border: 1px solid gray;
     margin-top: 50px;
 }
 
+/* contenuto sinistra colonna sotto */
 .column-bottom .content-left{
     width: 70%;
     float: left;
 }
 
+/* contenuto destra colonna sotto */
 .column-bottom .content-right{
     float: right;
     width: 30%;
 }
 
+/* button colonna sotto */
 .column-bottom button{
     margin-top: 0;
     width: 100%;
     padding: 10px 0;
 }
 
+/* terza sezione */
 .section-third{
     margin: 0 15%;
     margin-bottom: 100px;
 }
 
+/* immagine terza sezione */
 .section-third img{
     width: 100%;
     height: auto;
 }
 
+/* contenuto sinistra terza sezione */
 .section-third .left-content{
     float: left;
     width: 50%;
 }
 
+/* contenuto destra terza sezione */
 .section-third .right-content{
     float: right;
     width: 45%;
 }
 
+/* titolo h4 terza sezione */
 .section-third h4{
     font-size: 25px;
     margin-bottom: 20px;
 }
 
+/* paragrafo terza sezione */
 .section-third p{
     margin-bottom: 20px;
 }
 
+/* quarta sezione */
 .section-fourth{
     margin: 0 15%;
     margin-bottom: 100px;
 }
 
+/* riga quarta sezione */
 .section-fourth .row{
     width: 100%;
     margin-bottom: 70px;
 }
 
+/* colonna sinistra quarta sezione */
 .section-fourth .col-left{
     width: 30%;
     margin-right: 5%;
     float: left;
 }
 
+/* colonna centro quarta sezione */
 .section-fourth .col-middle{
     width: 30%;
     margin-right: 5%;
     float: left;
 }
 
+/* colonna destra quarta sezione */
 .section-fourth .col-right{
     width: 30%;
     float: left;
 }
 
+/* immagine quarta sezione */
 .section-fourth img{
     width: 100%;
     height: auto;
     margin-bottom: 15px;
 }
 
+/* titolo h4 quarta sezione */
 .section-fourth h4{
     margin-bottom: 20px;
 }
 
+/* quinta sezione */
 .section-fifth{
     width: 100%;
 }
 
+/* titolo h3 quinta sezione */
 .section-fifth h3{
     margin-left: 15%;
     margin-bottom: 30px;
     font-size: 25px;
 }
 
+/* a link quinta sezione */
 .section-fifth a{
     text-decoration: underline;
     margin-left: 15%;
@@ -330,11 +387,13 @@ ul{
     display: block;
 }
 
+/* container sinistra quinta sezione */
 .section-fifth .container-left{
     width: calc(100% / 3);
     float: left;
 }
 
+/* team design quinta sezione */
 .section-fifth .team-design{
     width: 16.48vw;
     height: 16.48vw;
@@ -342,6 +401,7 @@ ul{
 
 }
 
+/* immagine colonna */
 .col img{
     position: absolute;
     width: 55%;
@@ -352,19 +412,23 @@ ul{
     filter: invert(100%);
 }
 
+/* colonna quinta sezione */
 .section-fifth .col{
     float: left;
 }
 
+/* finta altezza */
 .fake-height{
     height: 506.1px;
 }
 
+/* immagine designit */
 #designit-img{
     width: 150px;
     height: auto;
 }
 
+/* contenitore centrale */
 .container-left .middle{
     width: 100%;
     height: 100%;
@@ -372,6 +436,7 @@ ul{
     background-color: #f5f5f5;
 }
 
+/* linea orizzontale container centro */
 .middle .horizontal-line{
     height: 3px;
     background-color: gray;
@@ -379,14 +444,16 @@ ul{
     margin-bottom: 30px;
 }
 
+/* paragrafo container centrale */
 .middle p{
     margin-bottom: 30px;
 }
 
+/* section sotto */
 .section-bottom{
     margin-bottom: 100px;
 }
-
+/* titolo h2 sezione sotto */
 .section-bottom h2{
     margin: 100px 15%;
     float: left;
@@ -395,6 +462,7 @@ ul{
     font-size: 30px;
 }
 
+/* sezione sotto contenitore button */
 .section-bottom .button-container{
     margin: 125px 15%;
     float: right;
@@ -402,22 +470,74 @@ ul{
     line-height: 100%;
 }
 
+/* faq section */
 .faq{
     margin: 0 15%;
     margin-bottom: 100px;
 }
 
+/* titolo h2 faq */
 .faq h2{
     margin-bottom: 50px;
 }
 
+/* contenitore faq */
 .faq div{
     padding: 25px 0;
 }
 
+/* entity faq */
 .faq .entity{
     float: right;
     margin-right: 20px;
+}
+
+/* hr faq */
+.faq hr{
+    border: 0;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+/* footer top */
+.footer-top{
+    padding: 100px 0;
+    margin: 0 10%;
+}
+
+/* titolo h4 footer top */
+.footer-top h4{
+    margin-bottom: 30px;
+}
+
+/* span footer top */
+.footer-top span{
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* colonna footer */
+.col-footer {
+    float: left;
+    width: calc(100% / 5) - 30px;
+    margin-right: 65px;
+}
+
+/* footer sotto */
+.footer-bottom{
+    margin: 0 10%;
+    padding-bottom: 40px;
+}
+
+/* footer hr */
+#footer-hr{
+    width: 10%;
+    background-color: grey;
+    fill: grey;
+    color: grey;
+    height: 1px;
+    border: 0;
+    margin-bottom: 40px;
 }
 
 /*------------
@@ -497,7 +617,6 @@ button{
     background-color: #ffd830;
 }
 
-
-
-
-
+.background-black{
+    background-color: black;
+}
