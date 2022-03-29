@@ -349,6 +349,7 @@ ul{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 
 .section-fifth .col{
@@ -401,7 +402,23 @@ ul{
     line-height: 100%;
 }
 
+.faq{
+    margin: 0 15%;
+    margin-bottom: 100px;
+}
 
+.faq h2{
+    margin-bottom: 50px;
+}
+
+.faq div{
+    padding: 25px 0;
+}
+
+.faq .entity{
+    float: right;
+    margin-right: 20px;
+}
 
 /*------------
     BUTTON
